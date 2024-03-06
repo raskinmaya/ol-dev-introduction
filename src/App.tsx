@@ -1,12 +1,12 @@
 import './App.css'
 import {Box} from "@mui/material";
 import {FC} from "react";
-import MapWrapper from "./components/MapWrapper.tsx";
+import MapPage from "./components/map-page/MapPage.tsx";
 
 const App: FC = () => {
   return (
       <Box sx={{ width: '100vw', height: '100vh' }}>
-          <MapWrapper/>
+          <MapPage/>
       </Box>
   )
 }
