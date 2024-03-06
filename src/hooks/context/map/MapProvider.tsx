@@ -1,16 +1,15 @@
-import {FC, ReactNode, useState} from "react";
+import {FC, ReactNode} from "react";
 import Map from 'ol/Map'
 import { MapContext } from "./common.ts";
 
 type MapProviderProps = {
-    children: ReactNode
+    children: ReactNode,
+    map: Map
 }
 
-const MapProvider: FC<MapProviderProps> = ({ children }) => {
-    const [map, setMap] = useState<Map | null>(null);
-
+const MapProvider: FC<MapProviderProps> = ({ children, map }) => {
     return (
-        <MapContext.Provider value={{ map, setMap }}>
+        <MapContext.Provider value={map}>
             { children }
         </MapContext.Provider>
     )
