@@ -22,6 +22,7 @@ export const createMap = () : Map => {
         ],
         view: new View({
             ...defaultMapParams
-        })
+        }),
+        controls: []
     })
 }

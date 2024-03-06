@@ -11,13 +11,13 @@ const MapWrapper: FC = () => {
     useEffect(() => {
         if (!map) return;
 
-        map.setTarget(mapContainerRef.current as HTMLElement);
         mapRef.current = map;
+        map.setTarget(mapContainerRef.current as HTMLElement);
 
         return () => {
             mapRef.current = null;
         }
-    }, [map]);
+    }, [map, mapContainerRef]);
 
     useEffect(() => {
         if (!mapRef.current)
