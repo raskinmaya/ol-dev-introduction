@@ -1,7 +1,7 @@
 import './App.css'
 import {Box} from "@mui/material";
 import {FC} from "react";
-import MapWrapper from "./components/MapWrapper.tsx";
+import MapWrapper from "./components/map-page/mapwrapper/MapWrapper.tsx";
 
 const App: FC = () => {
   return (
