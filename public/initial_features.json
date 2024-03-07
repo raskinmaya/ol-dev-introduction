@@ -3,7 +3,11 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "ex1": "ex1",
+        "ex2": 10,
+        "ex3": true
+      },
       "geometry": {
         "coordinates": [
           -58.18393862258495,
@@ -14,7 +18,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "ex1": "ex1",
+        "ex2": 10,
+        "ex3": true
+      },
       "geometry": {
         "coordinates": [
           -51.21052411844386,
@@ -25,7 +33,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "ex1": "ex1",
+        "ex2": 10,
+        "ex3": true
+      },
       "geometry": {
         "coordinates": [
           -55.20169026063303,
@@ -36,7 +48,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "ex1": "ex1",
+        "ex2": 10,
+        "ex3": true
+      },
       "geometry": {
         "coordinates": [
           -54.44260554335648,
@@ -47,7 +63,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "ex1": "ex1",
+        "ex2": 10,
+        "ex3": true
+      },
       "geometry": {
         "coordinates": [
           -57.54115777673505,
@@ -58,7 +78,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "ex1": "ex1",
+        "ex2": 10,
+        "ex3": true
+      },
       "geometry": {
         "coordinates": [
           -58.630252239053675,
